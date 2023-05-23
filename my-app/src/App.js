@@ -65,7 +65,7 @@ const App = () => {
     }
   };
   return (
-    <div className="pl-96">
+    <div className="m-36">
       <div className="w-64">
         <input
           className="p-4 m-2 w-full border border-gray-300"

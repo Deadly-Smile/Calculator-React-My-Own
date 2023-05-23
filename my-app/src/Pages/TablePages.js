@@ -39,7 +39,7 @@ const TablePages = ({ handleClick }) => {
     {
       render: (row) => {
         return (
-          <Button onClick={() => handleButtonClick(row.value[0])} outline>
+          <Button onClick={() => handleButtonClick(row.value[0])} secondary>
             {row.value[0]}
           </Button>
         );
@@ -48,7 +48,7 @@ const TablePages = ({ handleClick }) => {
     {
       render: (row) => {
         return (
-          <Button onClick={() => handleButtonClick(row.value[1])} outline>
+          <Button onClick={() => handleButtonClick(row.value[1])} secondary>
             {row.value[1]}
           </Button>
         );
@@ -57,7 +57,7 @@ const TablePages = ({ handleClick }) => {
     {
       render: (row) => {
         return (
-          <Button onClick={() => handleButtonClick(row.value[2])} outline>
+          <Button onClick={() => handleButtonClick(row.value[2])} secondary>
             {row.value[2]}
           </Button>
         );
@@ -66,7 +66,7 @@ const TablePages = ({ handleClick }) => {
     {
       render: (row) => {
         return (
-          <Button onClick={() => handleButtonClick(row.value[3])} outline>
+          <Button onClick={() => handleButtonClick(row.value[3])} secondary>
             {row.value[3]}
           </Button>
         );
